@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.task-todo-bg-container {
+  background-color: #f8fafc;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.task-create-card-container {
+  background-color: #1a171d;
+  width: 40%;
+  color: #ffffff;
+  padding: 25px;
+}
+.task-create-heading {
+  text-align: center;
+}
+.task-list-container {
+  background-color: #131213;
+  padding: 20px;
+  width: 60%;
+  color: #ffffff;
+}
+
+.task-input-el,
+.task-select-el {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+.task-add-btn {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.tag-btn {
+  padding: 10px;
+  margin: 5px;
+  color: #f1f5f9;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: 1px solid #f1f5f9;
+  background: none;
+  font-size: 22px;
+}
+
+.active-tag {
+  background-color: #f3aa4e;
+  color: #ffffff;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.tags-container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: 0%;
+}
+.tags-item {
+  list-style: none;
+}
+.task-list-heading {
+  padding-left: 20px;
+}
+.tasks-container {
+  background-color: #475569; 
+}
+.no-task-add-text {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 25px;
+}
+.task-tag {
+  background-color: #f3aa4e;
+  color: #f1f5f9;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  height: 40px;
+}
